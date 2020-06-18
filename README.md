@@ -1,12 +1,14 @@
 # NNIE-lite
 
-> This code is fit for Hisi 3516cv500, maybe need modify some where when using other version.
+>  <font color="#000000" size="3">This code is fit for Hisi 3516cv500, maybe need modify some where when using other version.</font>
 > </br>
-> NNIE refactor by cpp &amp; opencv, using NNIE simple like ncnn.
+> <font color="#000000" size="3">NNIE refactor by cpp &amp; opencv</font>
 > </br>
-> I will support other Hisi version.
+> <font color="#000000" size="3">Using NNIE simple like ncnn.</font>
+> </br>
+> <font color="#000000" size="3">I will support other Hisi version.</font>
 > </br> 
-> Code is comming soon.
+> <font color="#000000" size="4">Code is comming soon.</font>
 
 
 
