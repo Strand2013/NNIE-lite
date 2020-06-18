@@ -4,15 +4,15 @@
 
 ## Introduce
 
-- <font color="#000000" size="3">This code is fit for Hisi 3516cv500, maybe need modify some where when using other version.</font>
+- <font color="#000000" size="3">This code is fit for hisi-3516cv500, Some things need to be changed when using other hisi chip.</font>
 
 - <font color="#000000" size="3">NNIE refactor by cpp &amp; opencv</font>
 
-- <font color="#000000" size="3">I will support other Hisi version.</font>
+- <font color="#000000" size="3">I will support other hisi chip.</font>
  
 
 
-<font color="#000000" size="4">Code is comming soon.</font>
+**Code is comming soon**
 
 
 
