@@ -6,7 +6,7 @@ Accelerate model's inference time on camera using NNIE.
 
 NNIE 是 Neural Network Inference Engine 的简称，是海思媒体 SoC 中专门针对神经网络特别是深度学习卷积神经网络进行加速处理的硬件单元.
 
-The project is more suitable for algorithm engineer who don't care about the underlying about NNIE's detail or camera system, you can just focus your model's perfermance and latency.
+The project is more suitable for algorithm engineer who don't care about the underlying about NNIE's detail or camera system, you can just focus on your model's performance and latency.
 
 ===================================================================
 
