@@ -1,0 +1,9 @@
+Name: Vop0
+Classify: VOP
+Sub_net_type: 0
+Input: data [Exist] [bond_1][3][512][1024] 
+Output: deconv6_0_0 [bond_1][33][512][1024] 
+Report_flag: -1 
+Order: 0
+Layer_cnt: 211
+

@@ -1,0 +1,1 @@
+for name in `ls image`; do echo `pwd`/image/$name; done > image_ref_list.txt

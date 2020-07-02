@@ -2,70 +2,115 @@
 
 ⚡️ Using NNIE as simple as using ncnn ⚡️
 
+===================================================================
+
 ## Introduce
 
-- <font color="#000000" size="3">This code is fit for hisi-3516cv500, Some things need to be changed when using other hisi chip.</font>
+- <font color="#0000f0" size="3"> CMake-Based Project </font>
 
-- <font color="#000000" size="3">NNIE refactor by cpp &amp; opencv</font>
+- <font color="#000000" size="3">This project is straightforward to apply Hi3516CV500、Hi3519AV100</font>
 
-- <font color="#000000" size="3">I will support other hisi chip.</font>
- 
+- <font color="#000000" size="3">Refactor NNIE by C++ &amp; OpenCV</font>
 
+<center><img src="asset/NNIE-lite.png" width=100%></center>
 
-**Code is comming soon**
-
-
+--- 
 
 ## Environment
 
-#### Hisi SDK version
+- Hisi SDK version
 
-- Hi3516CV500_SDK_V2.0.0.3
+    - Hi3516CV500_SDK_V2.0.0.3
 
-#### Model Transfer Tools
+- Cross Tools
 
-- nnie-mapper
+    - 32bit
+    - arm-himix200-linux
 
-#### Cross Tools
+Recommend to read **Related Blog** about more detail.
 
-- 32bit
-- arm-himix200-linux
-
-#### OpenCV
-
+---
 
 ## Usage
 
-#### Model transfer
+- Model Converter
 
-#### Model init
+    - A template about converting Caffe_ENet to NNIE_ENet was provided.
 
-#### Model inference
+- Deploy
 
-#### ~Model 
+    - The examples provided how to use general classification and general segmentaion.
+    
+        - Put MNIST as general classification example.
+        - Put ENet as general segmentation example.
+    
+    - You may reference the examples to coding your custom task.
+
+---
+
+## Todo list
+
+- [ ] ResNet 18
+- [ ] MobileNetv2-yolov2
+- [ ] MobileNetv2-yolov3
+- [ ] CPM
+- [ ] OpenPose
+
+---
 
 ## Supported Model
 
 - Classification
 
     - [x] LeNet 5
-    - [ ] Resnet50
-    - [ ] MobileNet v2
-
--
 
 - Segmentation
 
     - [x] ENet 
-        - train repo :[]()
+        - train repo :[https://github.com/TimoSaemann/ENet](https://github.com/TimoSaemann/ENet)
         
--
-
+    - [x] SegNet
+        
 - ObjectDetection
 
-    - [x] MobileNet-yolov2
-        - train repo :[]()
-    - [x] MobileNet-yolov3
-        - train repo :[]()
+    - [ ] MobileNet-yolo-series
+        - train repo :[https://github.com/eric612/MobileNet-YOLO](https://github.com/eric612/MobileNet-YOLO)
+
+
+---
+
+## Debug Conveniently
+
+You may use ENet inference cityscapes image, and generate a color mask on camera directly.
+
+A demo output like below and the model is just a toy with few epoch.
+
+<center><img src="asset/color_mask.png" width=60%></center>
+
+---
+
+## Related Blog
+
+- [Build environment for model converter](https://blog.csdn.net/racesu/article/details/107045858)
+
+- [Cross compile OpenCV](https://blog.csdn.net/racesu/article/details/107047448)
+
+
+---
+
+## References
+
+
+- [Tencent/ncnn](https://github.com/Tencent/ncnn)
+ 
+- [yangfei963158659/nnie](https://github.com/yangfei963158659/nnie)
+
+- [GenericClassificationTensorRTApi](https://github.com/RaySue/GenericClassificationTensorRTApi)
+
+<!--## Donation
+
+If you like this repository, or if you'd like to support the author for any reason, you can donate to the author. Feel free to send me your name or introducing pages, I will make sure your name(s) on the sponsors list.
+
+-->
 
 
