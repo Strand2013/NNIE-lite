@@ -2,6 +2,10 @@
 
 ⚡️ Using NNIE as simple as using ncnn ⚡️
 
+Accelerate model's inference time on camera using NNIE.
+
+NNIE 是 Neural Network Inference Engine 的简称，是海思媒体 SoC 中专门针对神经网络特别是深度学习卷积神经网络进行加速处理的硬件单元.
+
 ===================================================================
 
 ## Introduce
