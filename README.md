@@ -56,11 +56,9 @@ Recommend to read **Related Blog** about more detail.
 
 ## Todo list
 
-- [ ] ResNet 18
+- [x] ResNet 18
 - [ ] MobileNetv2-yolov2
 - [ ] MobileNetv2-yolov3
-- [ ] CPM
-- [ ] OpenPose
 
 ---
 
@@ -109,8 +107,6 @@ A demo output like below and the model is just a toy with few epoch.
 
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
  
-- [yangfei963158659/nnie](https://github.com/yangfei963158659/nnie)
-
 - [GenericClassificationTensorRTApi](https://github.com/RaySue/GenericClassificationTensorRTApi)
 
 <!--## Donation
